@@ -1,0 +1,91 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1790395200
+<< checkpaint >>
+rect 0 0 2072 1280
+<< metal1 >>
+rect 756 352 916 400
+rect 756 864 916 912
+rect 916 352 1316 400
+rect 916 864 1316 912
+rect 916 352 964 912
+rect 340 224 388 1056
+rect 1684 224 1732 1056
+rect 252 224 476 288
+rect 644 352 868 416
+<< poly >>
+rect 308 228 1764 284
+rect 308 484 1764 540
+rect 308 740 1764 796
+rect 308 996 1764 1052
+<< metal3 >>
+rect 1316 96 1484 152
+rect 1316 608 1484 664
+rect 1316 1120 1484 1176
+rect 1484 608 1758 664
+rect 1484 96 1540 1176
+<< metal4 >>
+rect 1652 608 1864 820
+rect 644 0 856 1280
+rect 644 0 856 1280
+use LELOTR_NCHDL MN0 
+transform 1 0 0 0 1 0
+box 0 0 1036 512
+use LELOTR_NCHDL MN1 
+transform 1 0 0 0 1 256
+box 0 256 1036 768
+use LELOTR_NCHDL MN2 
+transform 1 0 0 0 1 512
+box 0 512 1036 1024
+use LELOTR_NCHDL MN3 
+transform 1 0 0 0 1 768
+box 0 768 1036 1280
+use LELOTR_PCHDL MP0 
+transform 1 0 1036 0 1 0
+box 1036 0 2072 512
+use LELOTR_PCHDL MP1 
+transform 1 0 1036 0 1 256
+box 1036 256 2072 768
+use LELOTR_PCHDL MP2 
+transform 1 0 1036 0 1 512
+box 1036 512 2072 1024
+use LELOTR_PCHDL MP3 
+transform 1 0 1036 0 1 768
+box 1036 768 2072 1280
+use LELOTR_cut_M3M4_2x2 xcut0 
+transform 1 0 1652 0 1 608
+box 1652 608 1864 820
+use LELOTR_cut_M1M3_2x1 xcut1 
+transform 1 0 1204 0 1 96
+box 1204 96 1416 156
+use LELOTR_cut_M1M3_2x1 xcut2 
+transform 1 0 1204 0 1 608
+box 1204 608 1416 668
+use LELOTR_cut_M1M3_2x1 xcut3 
+transform 1 0 1204 0 1 1120
+box 1204 1120 1416 1180
+use LELOTR_cut_M1M4_2x1 xcut4 
+transform 1 0 644 0 1 96
+box 644 96 856 156
+use LELOTR_cut_M1M4_2x1 xcut5 
+transform 1 0 644 0 1 608
+box 644 608 856 668
+use LELOTR_cut_M1M4_2x1 xcut6 
+transform 1 0 644 0 1 608
+box 644 608 856 668
+use LELOTR_cut_M1M4_2x1 xcut7 
+transform 1 0 644 0 1 1120
+box 644 1120 856 1180
+<< labels >>
+flabel metal1 s 252 224 476 288 0 FreeSans 400 0 0 0 A
+port 1 nsew signal bidirectional
+flabel metal1 s 644 352 868 416 0 FreeSans 400 0 0 0 Y
+port 2 nsew signal bidirectional
+flabel metal4 s 1652 608 1864 820 0 FreeSans 400 0 0 0 VREF
+port 3 nsew signal bidirectional
+flabel metal4 s 644 0 856 1280 0 FreeSans 400 0 0 0 AVSS
+port 5 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 2072 1280
+<< end >>

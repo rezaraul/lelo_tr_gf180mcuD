@@ -1,0 +1,331 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1790395200
+<< checkpaint >>
+rect -1120 -1120 46160 11360
+<< metal1 >>
+rect 45388 -560 45600 10800
+rect -560 -560 45600 -348
+rect -560 10588 45600 10800
+rect -560 -560 -348 10800
+rect 45388 -560 45600 10800
+rect 12672 -560 14688 128
+rect 14944 -560 18304 128
+rect 18560 -560 24608 128
+rect 24864 -560 36288 128
+rect 45948 -1120 46160 11360
+rect -1120 -1120 46160 -908
+rect -1120 11148 46160 11360
+rect -1120 -1120 -908 11360
+rect 45948 -1120 46160 11360
+<< metal4 >>
+rect 644 -560 856 512
+rect 644 -560 856 1024
+rect 644 -560 856 1536
+rect 3288 -560 3500 512
+rect 3288 -560 3500 1024
+rect 3288 -560 3500 1792
+rect 3288 -560 3500 3072
+rect 3288 -560 3500 5376
+rect 4788 -560 5000 512
+rect 4788 -560 5000 1280
+rect 7432 -560 7644 512
+rect 7432 -560 7644 1280
+rect 7432 -560 7644 2048
+rect 7432 -560 7644 3328
+rect 7432 -560 7644 4608
+rect 8932 -560 9144 512
+rect 8932 -560 9144 3072
+rect 11576 -560 11788 512
+rect 11576 -560 11788 2048
+rect 37508 -560 37720 512
+rect 37508 -560 37720 10240
+rect 40152 -560 40364 512
+rect 40152 -560 40364 7936
+rect 40152 -560 40364 9472
+rect 41652 -560 41864 512
+rect 41652 -560 41864 6656
+rect 1204 -1120 1416 512
+rect 1204 -1120 1416 1024
+rect 1204 -1120 1416 1536
+rect 2728 -1120 2940 512
+rect 2728 -1120 2940 1024
+rect 2728 -1120 2940 1792
+rect 2728 -1120 2940 3072
+rect 2728 -1120 2940 5376
+rect 5348 -1120 5560 512
+rect 5348 -1120 5560 1280
+rect 6872 -1120 7084 512
+rect 6872 -1120 7084 1280
+rect 6872 -1120 7084 2048
+rect 6872 -1120 7084 3328
+rect 6872 -1120 7084 4608
+rect 9492 -1120 9704 512
+rect 9492 -1120 9704 3072
+rect 11016 -1120 11228 512
+rect 11016 -1120 11228 2048
+rect 38068 -1120 38280 512
+rect 38068 -1120 38280 10240
+rect 39592 -1120 39804 512
+rect 39592 -1120 39804 7936
+rect 39592 -1120 39804 9472
+rect 42212 -1120 42424 512
+rect 42212 -1120 42424 6656
+use LELOTR_TAPCELLB_CV XA0 
+transform 1 0 0 0 1 0
+box 0 0 2072 512
+use LELOTR_TIEH_CV XA1 
+transform 1 0 0 0 1 512
+box 0 512 2072 1024
+use LELOTR_TIEL_CV XA2 
+transform 1 0 0 0 1 1024
+box 0 1024 2072 1536
+use LELOTR_TAPCELLB_CV XB0 
+transform -1 0 4144 0 1 0
+box 4144 0 6216 512
+use LELOTR_IVX1_CV XB3 
+transform -1 0 4144 0 1 512
+box 4144 512 6216 1024
+use LELOTR_IVX2_CV XB4 
+transform -1 0 4144 0 1 1024
+box 4144 1024 6216 1792
+use LELOTR_IVX4_CV XB5 
+transform -1 0 4144 0 1 1792
+box 4144 1792 6216 3072
+use LELOTR_IVX8_CV XB6 
+transform -1 0 4144 0 1 3072
+box 4144 3072 6216 5376
+use LELOTR_TAPCELLB_CV XC0 
+transform 1 0 4144 0 1 0
+box 4144 0 6216 512
+use LELOTR_BFX1_CV XC7 
+transform 1 0 4144 0 1 512
+box 4144 512 6216 1280
+use LELOTR_TAPCELLB_CV XD0 
+transform -1 0 8288 0 1 0
+box 8288 0 10360 512
+use LELOTR_NRX1_CV XD8 
+transform -1 0 8288 0 1 512
+box 8288 512 10360 1280
+use LELOTR_NDX1_CV XD9 
+transform -1 0 8288 0 1 1280
+box 8288 1280 10360 2048
+use LELOTR_ORX1_CV XD10 
+transform -1 0 8288 0 1 2048
+box 8288 2048 10360 3328
+use LELOTR_ANX1_CV XD11 
+transform -1 0 8288 0 1 3328
+box 8288 3328 10360 4608
+use LELOTR_TAPCELLB_CV XE0 
+transform 1 0 8288 0 1 0
+box 8288 0 10360 512
+use LELOTR_SCX1_CV XE12 
+transform 1 0 8288 0 1 512
+box 8288 512 10360 3072
+use LELOTR_TAPCELLB_CV XG0 
+transform -1 0 12432 0 1 0
+box 12432 0 14504 512
+use LELOTR_TGX2_CV XG1 
+transform -1 0 12432 0 1 512
+box 12432 512 14504 2048
+use LELOTR_RPPO2 XH1 
+transform 1 0 12656 0 1 0
+box 12656 0 14704 2624
+use LELOTR_RPPO4 XI1 
+transform -1 0 18320 0 1 0
+box 18320 0 21712 2624
+use LELOTR_RPPO8 XJ1 
+transform 1 0 18544 0 1 0
+box 18544 0 24624 2624
+use LELOTR_RPPO16 XK1 
+transform -1 0 36304 0 1 0
+box 36304 0 47760 2624
+use LELOTR_TAPCELLB_CV XL0 
+transform 1 0 36864 0 1 0
+box 36864 0 38936 512
+use LELOTR_CKDIV2_CV XL1 
+transform 1 0 36864 0 1 512
+box 36864 512 38936 10240
+use LELOTR_TAPCELLB_CV XM0 
+transform -1 0 41008 0 1 0
+box 41008 0 43080 512
+use LELOTR_DFTRIX1_CV XM1 
+transform -1 0 41008 0 1 512
+box 41008 512 43080 7936
+use LELOTR_DFTSPCX1_CV XM2 
+transform -1 0 41008 0 1 7936
+box 41008 7936 43080 9472
+use LELOTR_TAPCELLB_CV XN0 
+transform 1 0 41008 0 1 0
+box 41008 0 43080 512
+use LELOTR_DFRNQNX1_CV XN2 
+transform 1 0 41008 0 1 512
+box 41008 512 43080 6656
+use LELOTR_CAPX1 XO0 
+transform -1 0 45040 0 1 384
+box 45040 384 46440 1784
+use LELOTR_cut_M1M4_2x2 xcut0 
+transform 1 0 644 0 1 -560
+box 644 -560 856 -348
+use LELOTR_cut_M1M4_2x2 xcut1 
+transform 1 0 644 0 1 -560
+box 644 -560 856 -348
+use LELOTR_cut_M1M4_2x2 xcut2 
+transform 1 0 644 0 1 -560
+box 644 -560 856 -348
+use LELOTR_cut_M1M4_2x2 xcut3 
+transform 1 0 3288 0 1 -560
+box 3288 -560 3500 -348
+use LELOTR_cut_M1M4_2x2 xcut4 
+transform 1 0 3288 0 1 -560
+box 3288 -560 3500 -348
+use LELOTR_cut_M1M4_2x2 xcut5 
+transform 1 0 3288 0 1 -560
+box 3288 -560 3500 -348
+use LELOTR_cut_M1M4_2x2 xcut6 
+transform 1 0 3288 0 1 -560
+box 3288 -560 3500 -348
+use LELOTR_cut_M1M4_2x2 xcut7 
+transform 1 0 3288 0 1 -560
+box 3288 -560 3500 -348
+use LELOTR_cut_M1M4_2x2 xcut8 
+transform 1 0 4788 0 1 -560
+box 4788 -560 5000 -348
+use LELOTR_cut_M1M4_2x2 xcut9 
+transform 1 0 4788 0 1 -560
+box 4788 -560 5000 -348
+use LELOTR_cut_M1M4_2x2 xcut10 
+transform 1 0 7432 0 1 -560
+box 7432 -560 7644 -348
+use LELOTR_cut_M1M4_2x2 xcut11 
+transform 1 0 7432 0 1 -560
+box 7432 -560 7644 -348
+use LELOTR_cut_M1M4_2x2 xcut12 
+transform 1 0 7432 0 1 -560
+box 7432 -560 7644 -348
+use LELOTR_cut_M1M4_2x2 xcut13 
+transform 1 0 7432 0 1 -560
+box 7432 -560 7644 -348
+use LELOTR_cut_M1M4_2x2 xcut14 
+transform 1 0 7432 0 1 -560
+box 7432 -560 7644 -348
+use LELOTR_cut_M1M4_2x2 xcut15 
+transform 1 0 8932 0 1 -560
+box 8932 -560 9144 -348
+use LELOTR_cut_M1M4_2x2 xcut16 
+transform 1 0 8932 0 1 -560
+box 8932 -560 9144 -348
+use LELOTR_cut_M1M4_2x2 xcut17 
+transform 1 0 11576 0 1 -560
+box 11576 -560 11788 -348
+use LELOTR_cut_M1M4_2x2 xcut18 
+transform 1 0 11576 0 1 -560
+box 11576 -560 11788 -348
+use LELOTR_cut_M1M4_2x2 xcut19 
+transform 1 0 37508 0 1 -560
+box 37508 -560 37720 -348
+use LELOTR_cut_M1M4_2x2 xcut20 
+transform 1 0 37508 0 1 -560
+box 37508 -560 37720 -348
+use LELOTR_cut_M1M4_2x2 xcut21 
+transform 1 0 40152 0 1 -560
+box 40152 -560 40364 -348
+use LELOTR_cut_M1M4_2x2 xcut22 
+transform 1 0 40152 0 1 -560
+box 40152 -560 40364 -348
+use LELOTR_cut_M1M4_2x2 xcut23 
+transform 1 0 40152 0 1 -560
+box 40152 -560 40364 -348
+use LELOTR_cut_M1M4_2x2 xcut24 
+transform 1 0 41652 0 1 -560
+box 41652 -560 41864 -348
+use LELOTR_cut_M1M4_2x2 xcut25 
+transform 1 0 41652 0 1 -560
+box 41652 -560 41864 -348
+use LELOTR_cut_M1M4_2x2 xcut26 
+transform 1 0 1204 0 1 -1120
+box 1204 -1120 1416 -908
+use LELOTR_cut_M1M4_2x2 xcut27 
+transform 1 0 1204 0 1 -1120
+box 1204 -1120 1416 -908
+use LELOTR_cut_M1M4_2x2 xcut28 
+transform 1 0 1204 0 1 -1120
+box 1204 -1120 1416 -908
+use LELOTR_cut_M1M4_2x2 xcut29 
+transform 1 0 2728 0 1 -1120
+box 2728 -1120 2940 -908
+use LELOTR_cut_M1M4_2x2 xcut30 
+transform 1 0 2728 0 1 -1120
+box 2728 -1120 2940 -908
+use LELOTR_cut_M1M4_2x2 xcut31 
+transform 1 0 2728 0 1 -1120
+box 2728 -1120 2940 -908
+use LELOTR_cut_M1M4_2x2 xcut32 
+transform 1 0 2728 0 1 -1120
+box 2728 -1120 2940 -908
+use LELOTR_cut_M1M4_2x2 xcut33 
+transform 1 0 2728 0 1 -1120
+box 2728 -1120 2940 -908
+use LELOTR_cut_M1M4_2x2 xcut34 
+transform 1 0 5348 0 1 -1120
+box 5348 -1120 5560 -908
+use LELOTR_cut_M1M4_2x2 xcut35 
+transform 1 0 5348 0 1 -1120
+box 5348 -1120 5560 -908
+use LELOTR_cut_M1M4_2x2 xcut36 
+transform 1 0 6872 0 1 -1120
+box 6872 -1120 7084 -908
+use LELOTR_cut_M1M4_2x2 xcut37 
+transform 1 0 6872 0 1 -1120
+box 6872 -1120 7084 -908
+use LELOTR_cut_M1M4_2x2 xcut38 
+transform 1 0 6872 0 1 -1120
+box 6872 -1120 7084 -908
+use LELOTR_cut_M1M4_2x2 xcut39 
+transform 1 0 6872 0 1 -1120
+box 6872 -1120 7084 -908
+use LELOTR_cut_M1M4_2x2 xcut40 
+transform 1 0 6872 0 1 -1120
+box 6872 -1120 7084 -908
+use LELOTR_cut_M1M4_2x2 xcut41 
+transform 1 0 9492 0 1 -1120
+box 9492 -1120 9704 -908
+use LELOTR_cut_M1M4_2x2 xcut42 
+transform 1 0 9492 0 1 -1120
+box 9492 -1120 9704 -908
+use LELOTR_cut_M1M4_2x2 xcut43 
+transform 1 0 11016 0 1 -1120
+box 11016 -1120 11228 -908
+use LELOTR_cut_M1M4_2x2 xcut44 
+transform 1 0 11016 0 1 -1120
+box 11016 -1120 11228 -908
+use LELOTR_cut_M1M4_2x2 xcut45 
+transform 1 0 38068 0 1 -1120
+box 38068 -1120 38280 -908
+use LELOTR_cut_M1M4_2x2 xcut46 
+transform 1 0 38068 0 1 -1120
+box 38068 -1120 38280 -908
+use LELOTR_cut_M1M4_2x2 xcut47 
+transform 1 0 39592 0 1 -1120
+box 39592 -1120 39804 -908
+use LELOTR_cut_M1M4_2x2 xcut48 
+transform 1 0 39592 0 1 -1120
+box 39592 -1120 39804 -908
+use LELOTR_cut_M1M4_2x2 xcut49 
+transform 1 0 39592 0 1 -1120
+box 39592 -1120 39804 -908
+use LELOTR_cut_M1M4_2x2 xcut50 
+transform 1 0 42212 0 1 -1120
+box 42212 -1120 42424 -908
+use LELOTR_cut_M1M4_2x2 xcut51 
+transform 1 0 42212 0 1 -1120
+box 42212 -1120 42424 -908
+<< labels >>
+flabel metal1 s 45388 -560 45600 10800 0 FreeSans 400 0 0 0 AVSS
+port 2 nsew signal bidirectional
+flabel metal1 s 45948 -1120 46160 11360 0 FreeSans 400 0 0 0 AVDD
+port 1 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX -1120 -1120 46160 11360
+<< end >>

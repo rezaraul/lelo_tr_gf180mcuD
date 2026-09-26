@@ -1,0 +1,104 @@
+{
+    "cells": [
+        {
+            "name": "CAPX1",
+            "boundaryIgnoreRouting": 0,
+            "abstract": 0,
+            "meta": {
+                "symbol": "cic/cap"
+            },
+            "parseSubckt": {
+                "devices": [
+                    {
+                        "class": "mimcap",
+                        "deviceName": "mim",
+                        "name": "C1",
+                        "nodes": [
+                            "A",
+                            "B"
+                        ],
+                        "properties": {
+                            "l": 5.8,
+                            "w": 5.8
+                        }
+                    }
+                ],
+                "instances": [],
+                "name": "CAPX1",
+                "nodes": [
+                    "B",
+                    "A"
+                ],
+                "properties": {}
+            },
+            "afterNew": {
+                "addRectangles": [
+                    [
+                        "M5",
+                        0,
+                        0,
+                        70000,
+                        70000,
+                        ""
+                    ],
+                    [
+                        "MIM",
+                        6000,
+                        6000,
+                        58000,
+                        58000,
+                        ""
+                    ],
+                    [
+                        "MIMC",
+                        10000,
+                        10000,
+                        50000,
+                        50000,
+                        ""
+                    ],
+                    [
+                        "M4",
+                        0,
+                        0,
+                        70000,
+                        70000,
+                        ""
+                    ]
+                ],
+                "addPortRectangles": [
+                    [
+                        "M5",
+                        0,
+                        0,
+                        70000,
+                        5000,
+                        "",
+                        "A"
+                    ],
+                    [
+                        "M4",
+                        0,
+                        0,
+                        70000,
+                        5000,
+                        "",
+                        "B"
+                    ]
+                ]
+            },
+            "afterRoute": {
+                "addPortOnRects": [
+                    [
+                        "A",
+                        "M5"
+                    ],
+                    [
+                        "B",
+                        "M4"
+                    ]
+                ]
+            }
+        }
+    ]
+}
