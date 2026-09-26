@@ -6284,7 +6284,7 @@
                 }
             ],
             "ckt": {
-                "class": "cIcCore::PatternHighResistorNoBulk",
+                "class": "cIcCore::PatternHighResistor",
                 "devices": [
                     {
                         "class": "cIcSpice::Resistor",
@@ -6292,7 +6292,8 @@
                         "name": "R1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                             "length": 5.12,
@@ -6306,12 +6307,13 @@
                 "name": "LELOTR_RES2",
                 "nodes": [
                     "N",
-                    "P"
+                    "P",
+                    "B"
                 ],
                 "properties": {
                 }
             },
-            "class": "cIcCore::PatternHighResistorNoBulk",
+            "class": "cIcCore::PatternHighResistor",
             "has_pr": true,
             "heightoffset": 0,
             "layer": "PR",
@@ -7635,7 +7637,7 @@
                 }
             ],
             "ckt": {
-                "class": "cIcCore::PatternHighResistorNoBulk",
+                "class": "cIcCore::PatternHighResistor",
                 "devices": [
                     {
                         "class": "cIcSpice::Resistor",
@@ -7643,7 +7645,8 @@
                         "name": "R1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                             "length": 5.12,
@@ -7657,12 +7660,13 @@
                 "name": "LELOTR_RES4",
                 "nodes": [
                     "N",
-                    "P"
+                    "P",
+                    "B"
                 ],
                 "properties": {
                 }
             },
-            "class": "cIcCore::PatternHighResistorNoBulk",
+            "class": "cIcCore::PatternHighResistor",
             "has_pr": true,
             "heightoffset": 0,
             "layer": "PR",
@@ -10102,7 +10106,7 @@
                 }
             ],
             "ckt": {
-                "class": "cIcCore::PatternHighResistorNoBulk",
+                "class": "cIcCore::PatternHighResistor",
                 "devices": [
                     {
                         "class": "cIcSpice::Resistor",
@@ -10110,7 +10114,8 @@
                         "name": "R1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                             "length": 5.12,
@@ -10124,12 +10129,13 @@
                 "name": "LELOTR_RES8",
                 "nodes": [
                     "N",
-                    "P"
+                    "P",
+                    "B"
                 ],
                 "properties": {
                 }
             },
-            "class": "cIcCore::PatternHighResistorNoBulk",
+            "class": "cIcCore::PatternHighResistor",
             "has_pr": true,
             "heightoffset": 0,
             "layer": "PR",
@@ -14801,7 +14807,7 @@
                 }
             ],
             "ckt": {
-                "class": "cIcCore::PatternHighResistorNoBulk",
+                "class": "cIcCore::PatternHighResistor",
                 "devices": [
                     {
                         "class": "cIcSpice::Resistor",
@@ -14809,7 +14815,8 @@
                         "name": "R1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                             "length": 5.12,
@@ -14823,12 +14830,13 @@
                 "name": "LELOTR_RES16",
                 "nodes": [
                     "N",
-                    "P"
+                    "P",
+                    "B"
                 ],
                 "properties": {
                 }
             },
-            "class": "cIcCore::PatternHighResistorNoBulk",
+            "class": "cIcCore::PatternHighResistor",
             "has_pr": true,
             "heightoffset": 0,
             "layer": "PR",
@@ -14910,7 +14918,8 @@
                         "name": "XA1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                         },
@@ -16268,7 +16277,8 @@
                         "name": "XA1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                         },
@@ -16380,7 +16390,8 @@
                         "name": "XA1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                         },
@@ -18026,7 +18037,8 @@
                         "name": "XA1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                         },
@@ -18138,7 +18150,8 @@
                         "name": "XA1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                         },
@@ -20396,7 +20409,8 @@
                         "name": "XA1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                         },
@@ -20508,7 +20522,8 @@
                         "name": "XA1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                         },
@@ -23972,7 +23987,8 @@
                         "name": "XA1",
                         "nodes": [
                             "N",
-                            "P"
+                            "P",
+                            "B"
                         ],
                         "properties": {
                         },

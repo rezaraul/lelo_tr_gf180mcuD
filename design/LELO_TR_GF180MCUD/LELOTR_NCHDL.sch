@@ -9,8 +9,10 @@ C {devices/iopin.sym} 0 20 0 0 {name=p1 lab=G}
 C {devices/iopin.sym} 0 40 0 0 {name=p2 lab=S}
 C {devices/iopin.sym} 0 60 0 0 {name=p3 lab=B}
 C {symbols/nfet_03v3.sym} 400 0 0 0 {name=XM1
-l=0.28u
-w=1.12u
+L=0.28u
+W=1.12u
+nf=1
+m=1
 spiceprefix=X
 model=nfet_03v3
 }

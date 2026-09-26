@@ -12,3 +12,5 @@ N 360.0 0.0 380.0 0.0 {lab=N}
 C {devices/lab_pin.sym} 360.0 0.0 0 0 {name=l0 sig_type=std_logic lab=N }
 N 360.0 20.0 380.0 20.0 {lab=P}
 C {devices/lab_pin.sym} 360.0 20.0 0 0 {name=l1 sig_type=std_logic lab=P }
+N 360.0 40.0 380.0 40.0 {lab=B}
+C {devices/lab_pin.sym} 360.0 40.0 0 0 {name=l2 sig_type=std_logic lab=B }

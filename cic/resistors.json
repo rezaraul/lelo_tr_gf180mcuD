@@ -1,7 +1,7 @@
 {
     "cells" : [
         { "name" : "RES2",
-          "class" : "cIcCore::PatternHighResistorNoBulk",
+          "class" : "cIcCore::PatternHighResistor",
           "yoffset": -0.5,
           "xoffset": -0.5,
           "polyWidthAdjust" : 0,
@@ -136,7 +136,7 @@
               "symbol" : "cic/res"
           },
           "spice": [".subckt RPPO2 P N B",
-                    "XA1 N P  RES2",
+                    "XA1 N P B RES2",
                     ".ends"
                    ],
           "afterPlace" : {
@@ -153,7 +153,7 @@
           "class" : "Layout::LayoutDigitalCell",
           "leech" :"RPPO2",
           "spice": [".subckt RPPO4 P N B",
-                    "XA1 N P  RES4",
+                    "XA1 N P B RES4",
                     ".ends"
                    ]
         },
@@ -161,7 +161,7 @@
           "class" : "cIcCore::LayoutCell",
            "leech" :"RPPO2",
           "spice": [".subckt RPPO8 P N B",
-                    "XA1 N P  RES8",
+                    "XA1 N P B RES8",
                     ".ends"
                    ]
         },
@@ -169,7 +169,7 @@
           "class" : "Layout::LayoutDigitalCell",
            "leech" :"RPPO2",
           "spice": [".subckt RPPO16 P N B",
-                    "XA1 N P  RES16",
+                    "XA1 N P B RES16",
                     ".ends"
                    ]
         }
